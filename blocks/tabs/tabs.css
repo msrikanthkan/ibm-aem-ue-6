@@ -1,0 +1,26 @@
+/* Tabs block styles — Migrated from AEM: wknd/components/tabs */
+
+.tabs-list {
+  display: flex;
+  border-bottom: 2px solid var(--border-color, #e0e0e0);
+  margin-bottom: 1rem;
+}
+
+.tabs-tab {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: var(--body-font-size-m);
+  color: var(--text-color-light, #666);
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+}
+
+.tabs-tab[aria-selected="true"] {
+  color: var(--link-color, #006ce0);
+  border-bottom-color: var(--link-color, #006ce0);
+  font-weight: 600;
+}
+
+.tabs-panel { padding: 1rem 0; }

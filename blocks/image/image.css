@@ -1,0 +1,10 @@
+/* Image block styles — Migrated from AEM: wknd/components/image */
+
+.image figure { margin: 0; }
+.image img { width: 100%; height: auto; display: block; }
+.image figcaption {
+  font-size: var(--body-font-size-s);
+  color: var(--text-color-light, #666);
+  text-align: center;
+  margin-top: 0.5rem;
+}

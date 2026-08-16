@@ -1,0 +1,28 @@
+/* Button block styles — Migrated from AEM: wknd/components/button */
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--link-color, #006ce0);
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.button:hover {
+  background: var(--link-hover-color, #0056b3);
+}
+
+.button.secondary {
+  background: transparent;
+  color: var(--link-color, #006ce0);
+  border: 2px solid var(--link-color, #006ce0);
+}
+
+.button.outline {
+  background: transparent;
+  color: var(--text-color, #222);
+  border: 2px solid var(--border-color, #e0e0e0);
+}
