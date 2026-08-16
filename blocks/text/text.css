@@ -1,0 +1,3 @@
+/* Text block styles — Migrated from AEM: wknd/components/text */
+.text p { margin: 0 0 1rem; }
+.text p:last-child { margin-bottom: 0; }

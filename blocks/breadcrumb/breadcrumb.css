@@ -1,0 +1,21 @@
+/* Breadcrumb block styles — Migrated from AEM: wknd/components/breadcrumb */
+
+.breadcrumb-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+  font-size: var(--body-font-size-s);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: '/';
+  margin: 0 0.5rem;
+  color: var(--text-color-light, #999);
+}
+
+.breadcrumb-item[aria-current="page"] {
+  color: var(--text-color-light, #666);
+}

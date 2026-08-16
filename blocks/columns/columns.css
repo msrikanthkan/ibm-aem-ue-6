@@ -1,33 +1,17 @@
+/* Columns block styles — Migrated from AEM: wknd/components/container */
+
 .columns > div {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  gap: 1.5rem;
 }
 
-.columns img {
-  width: 100%;
-}
-
-.columns > div > div {
-  order: 1;
-}
-
-.columns > div > .columns-img-col {
-  order: 0;
-}
-
-.columns > div > .columns-img-col img {
-  display: block;
-}
-
-@media (width >= 900px) {
+@media (min-width: 768px) {
   .columns > div {
-    align-items: center;
-    flex-direction: unset;
-    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
+}
 
-  .columns > div > div {
-    flex: 1;
-    order: unset;
-  }
+.columns-col img {
+  width: 100%;
+  height: auto;
 }

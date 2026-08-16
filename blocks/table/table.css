@@ -1,0 +1,15 @@
+/* Table block styles — Migrated from AEM: dam/cfm/components/grid */
+
+.table { overflow-x: auto; }
+.table table { width: 100%; border-collapse: collapse; font-size: var(--body-font-size-s); }
+.table th {
+  background: var(--highlight-background-color, #f5f5f5);
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid var(--border-color, #e0e0e0);
+}
+.table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border-color, #e0e0e0);
+}
