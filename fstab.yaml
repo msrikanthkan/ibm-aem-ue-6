@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p9198-e332504.adobeaemcloud.com/bin/franklin.delivery/msrikanthkan/ibm-aem-ue-6/main"
+    url: "https://author-p9198-e332504.adobeaemcloud.com/bin/franklin.delivery/msrikanthkan/ibm-aem-ue-6/main/content/test-eds"
     type: "markup"
     suffix: ".html"
